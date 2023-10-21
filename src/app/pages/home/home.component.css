@@ -1,0 +1,32 @@
+.spotlight__banner {
+  background-image: url("/assets/spiderman2.png");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #cc0607;
+  padding: 150px 0;
+}
+
+.spotlight__title {
+  font-family: sst;
+  font-size: 1.625em;
+  color: #363636;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.container__games {
+  width: 100%;
+  display: flex;
+  padding: 32px 0px;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    0deg,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(230, 230, 230, 1) 100%
+  );
+}

@@ -1,0 +1,60 @@
+#menu-bar__header__div-sony {
+  display: flex;
+  justify-content: flex-end;
+
+  background-color: black;
+  color: #ffffff;
+  padding: 8px;
+  font-size: 1.5em;
+}
+#menu-bar__header__div-sony > span {
+  padding-right: 16px;
+}
+
+#menu-bar__header__div-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  width: 100%;
+  height: 3.5em;
+  align-items: center;
+
+  z-index: 999;
+  background-color: #ffffff;
+
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+#menu-bar__header__div-nav > img {
+  justify-self: flex-start;
+  width: 160px;
+  margin: 0 16px;
+}
+
+#menu-bar__header__div-nav > div {
+  display: flex;
+  justify-self: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  font-size: 1.125em;
+  padding: 4px 8px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+a {
+  color: inherit;
+  font-weight: 500;
+  text-decoration: none;
+}
