@@ -19,7 +19,12 @@
 }
 @media screen and (min-width: 1280px) {
   .spotlight__banner {
-    padding: 220px 0;
+    padding: 230px 0;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .spotlight__banner {
+    padding: 270px 0;
   }
 }
 
