@@ -7,6 +7,22 @@
   padding: 150px 0;
 }
 
+@media screen and (max-width: 600px) {
+  .spotlight__banner {
+    padding: 100px 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  .spotlight__banner {
+    padding: 180px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .spotlight__banner {
+    padding: 220px 0;
+  }
+}
+
 .spotlight__title {
   font-family: sst;
   font-size: 1.625em;
